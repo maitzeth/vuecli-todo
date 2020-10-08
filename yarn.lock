@@ -1244,6 +1244,13 @@
   dependencies:
     "@vue/cli-shared-utils" "^4.5.6"
 
+"@vue/cli-plugin-router@~4.5.0":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.5.7.tgz#65873dcdf8a27a65733ba2d015ff82c0c03f6119"
+  integrity sha512-wzKz8+qOXNqVglcw90lYHbu5UJQo8QoyNXHAiM0RIX4r3W8KqiHrvu7MZFCOVKM3ojRFbDofumorypN2yieSXA==
+  dependencies:
+    "@vue/cli-shared-utils" "^4.5.7"
+
 "@vue/cli-plugin-vuex@^4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.5.6.tgz#484687d85369b0dca065c4491bf18efff5e31ecf"
@@ -1316,6 +1323,24 @@
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.6.tgz#14644972043c95566788d07d9a9367edd438a4d6"
   integrity sha512-p6ePDlEa7Xc0GEt99KDOCwPZtR7UnoEaZLMfwPYU5LAWkdCmtAw8HPAY/WWcjtoiaAkY4k9tz7ZehQasZ9mJxg==
+  dependencies:
+    "@hapi/joi" "^15.0.1"
+    chalk "^2.4.2"
+    execa "^1.0.0"
+    launch-editor "^2.2.1"
+    lru-cache "^5.1.1"
+    node-ipc "^9.1.1"
+    open "^6.3.0"
+    ora "^3.4.0"
+    read-pkg "^5.1.1"
+    request "^2.88.2"
+    semver "^6.1.0"
+    strip-ansi "^6.0.0"
+
+"@vue/cli-shared-utils@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.7.tgz#b8e911c2f9b6b77123f5d26988b9613d92dcda95"
+  integrity sha512-oicFfx9PvgupxN/LW0s2ktdn1U6bBu8J4lPcW2xj6TtTWUkkxwzis4Tm+XOvgvZnu44+d7216y0Y4TX90q645w==
   dependencies:
     "@hapi/joi" "^15.0.1"
     chalk "^2.4.2"
@@ -1802,6 +1827,13 @@ aws4@^1.8.0:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
+
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 babel-eslint@^10.1.0:
   version "10.1.0"
@@ -3881,7 +3913,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
@@ -8122,6 +8154,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.2.0:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.6.tgz#f7bda2c9a43d39837621c9a02ba7789f5daa24b2"
+  integrity sha512-kaXnB3pfFxhAJl/Mp+XG1HJMyFqrL/xPqV7oXlpXn4AwMmm6VNgf0nllW8ksflmZANfI4kdo0bVn/FYSsAolPQ==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
